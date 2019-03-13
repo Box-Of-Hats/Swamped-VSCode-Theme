@@ -17,3 +17,9 @@
 
 1. `git commit --allow-empty -m "Publish branch message"`
 2. `git push`
+
+## Syntax
+
+|  Char  | Action | Example |
+| :----: | ------ | ------- |
+| !      | Exclude a file or directory   | `!/js/*.js` |
