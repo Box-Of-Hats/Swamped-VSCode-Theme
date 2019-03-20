@@ -23,3 +23,13 @@
 |  Char  | Action | Example |
 | :----: | ------ | ------- |
 | !      | Exclude a file or directory   | `!/js/*.js` |
+
+## Undo last commit
+
+`git reset --hard HEAD^`
+
+## Undo last X commits
+
+Change the '3' to be the number of commits you want to undo.
+
+`git reset --hard HEAD~3`
