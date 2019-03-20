@@ -18,12 +18,6 @@
 1. `git commit --allow-empty -m "Publish branch message"`
 2. `git push`
 
-## Syntax
-
-|  Char  | Action | Example |
-| :----: | ------ | ------- |
-| !      | Exclude a file or directory   | `!/js/*.js` |
-
 ## Undo last commit
 
 `git reset --hard HEAD^`
@@ -33,3 +27,10 @@
 Change the '3' to be the number of commits you want to undo.
 
 `git reset --hard HEAD~3`
+
+
+## .gitignore Syntax
+
+|  Char  | Action | Example |
+| :----: | ------ | ------- |
+| !      | Exclude a file or directory   | `!/js/*.js` |
