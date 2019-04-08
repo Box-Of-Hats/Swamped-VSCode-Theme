@@ -4,7 +4,8 @@
     "description": "A dark green color theme.",
     "publisher": "Box-Of-Hats",
     "repository": "https://github.com/Box-Of-Hats/Swamped-VSCode-Theme",
-    "version": "0.0.2",
+    "version": "0.0.4",
+    "icon": "images/swampy.png",
     "engines": {
         "vscode": "^1.33.0"
     },
